@@ -8,8 +8,8 @@ Escribir una función llamada contrasenaValida que reciba un string y retorne tr
 
 function contraseñaValida(string) {
     const CONTRASEÑAS = ['2Fj(jjbFsuj', 'eoZiugBf&g9'];
-    return CONTRASEÑAS.includes(string) ? true : false;
+    return CONTRASEÑAS.includes(string);
 }
 
-console.log(contraseñaValida('eoZiugBf&g9'));
+console.log(contraseñaValida('2Fj(jjbFsuj'));
 
