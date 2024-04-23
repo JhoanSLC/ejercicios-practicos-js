@@ -67,6 +67,17 @@ La siguiente línea de código válida que el dato ingresado a la función sea u
 
 Y finalmente la función flecha finaliza retornando el índice 0 (el primer elemento) de dicho array.
 
+<h3>ALGUNOS EJEMPLOS<h3>
+
+<h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+console.log(devolverPrimerElemento([1,2,3,4,5])); // ***1*** 
+console.log(devolverPrimerElemento([1])); // ***1*** 
+console.log(devolverPrimerElemento([])); // ***El arreglo no puede estar vacío***
+console.log(devolverPrimerElemento("Hola mundo")); // ***El parámetro debe ser un arreglo***
+console.log(devolverPrimerElemento(5)); // ***El parámetro debe ser un arreglo***
+console.log(devolverPrimerElemento({})); // ***El parámetro debe ser un arreglo***
+
 
 -------------
 -------------
@@ -86,6 +97,18 @@ Luego se procede a verificar que el dato ingresado a la función sea un array.
 Esto se hace haciendo uso de un condicional if con negación (!), quedando la expresión completa así ***if (!Array.isArray(array))*** lo que se traduce cómo "Si el dato ingresado no es de tipo array" entonces se retornará un mensaje por consola.
 
 Si las validaciones pasadas se pasan correctamente, la función terminará retornando el último elemento de dicho array haciendo uso del metodo ***at(-1)*** que permite obtener el elemento que se encuentra en el índice que se pasa cómo parametro dentro del método.
+
+<h3>ALGUNOS EJEMPLOS</h3>
+
+<h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+console.log(devolverUltimoElemento([1,2,3,4,5])); // ***5*** 
+console.log(devolverUltimoElemento(["Hola", "mundo"])); // ***mundo*** 
+console.log(devolverUltimoElemento([1])); // ***1*** 
+console.log(devolverUltimoElemento([])); // ***No hay elementos en el array*** 
+console.log(devolverUltimoElemento("Hola mundo")); // ***Hola mundo***
+console.log(devolverUltimoElemento(5)); // ***El parámetro no es un array***
+console.log(devolverUltimoElemento({})); // ***El parámetro no es un array***
 
 ---------
 ---------
