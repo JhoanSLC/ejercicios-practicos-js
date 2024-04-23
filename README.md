@@ -136,8 +136,8 @@ console.log(devolverUltimoElemento({})); // ***El parámetro no es un array***
 
 El código empieza declarando una función que toma cómo parámetro un array. 
 
-Luego va a retornar la longitud del array o un mensaje si el parámetro no es un arreglo según la condición dada ***(!Array.isArray(array))***. Esta condición se traduce cómo "Si el parámetro dado no es un array" entonces:
+Luego va a retornar la longitud del array o un mensaje si el parámetro no es un arreglo según la condición dada ***(!Array.isArray(array))***. Esta condición se traduce cómo "Si el parámetro dado no es un array" entonces.
 
-        * Haciendo uso del operador ternario ***\*****?*****\*** para en caso de que el parámetro no sea un array pára retornar el mensaje
+        * Haciendo uso del operador ternario ***?*** para en caso de que el parámetro no sea un array pára retornar el mensaje
 
         * Haciendo uso del operador ternario ***:*** para en caso de que el parámetro sí sea un array entonces retorna la longitud del array haciendo uso del método ***.lenght*** 
