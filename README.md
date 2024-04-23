@@ -74,7 +74,7 @@ Y finalmente la función flecha finaliza retornando el índice 0 (el primer elem
 
 <h2 align="center">ANÁLISIS DE CÓDIGO FUENTE #2</h1>
 
-<p align="center"><img src="/analisis_de_codigos/code-images/analisis-2/codigo_fuente.svg"></p>
+<p align="center"><img width="600" src="/analisis_de_codigos/code-images/analisis-2/codigo_fuente.svg"></p>
 
 ------------
 
