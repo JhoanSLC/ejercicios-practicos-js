@@ -71,6 +71,8 @@ Y finalmente la función flecha finaliza retornando el índice 0 (el primer elem
 
 <h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
 
+
+
 console.log(devolverPrimerElemento([1,2,3,4,5])); // ***1*** 
 
 console.log(devolverPrimerElemento([1])); // ***1*** 
@@ -106,6 +108,8 @@ Si las validaciones pasadas se pasan correctamente, la función terminará retor
 <h3>ALGUNOS EJEMPLOS</h3>
 
 <h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+
 
 console.log(devolverUltimoElemento([1,2,3,4,5])); // ***5*** 
 
