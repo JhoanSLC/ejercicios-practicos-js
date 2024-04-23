@@ -1,4 +1,4 @@
-# **Ejercicios prácticos JavaScript**
+<h1 align="center" font-size="40px">Ejercicios prácticos JavaScript</h1>
 
   
   
@@ -16,7 +16,7 @@ Estos ejercicios se realizan a forma de tarea práctica para CampusLands.
 
   
 
-***ANÁLISIS DE CÓDIGO FUENTE ***
+***ANÁLISIS DE CÓDIGO FUENTE***
 
 Análisis de Código Fuente : Explique con su palabras que realiza el siguiente código fuente.
 
