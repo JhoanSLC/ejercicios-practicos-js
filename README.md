@@ -31,7 +31,7 @@ El siguiente código se encarga de tomar un array y devolver el primer elemento 
 
 -----------
 
-El código inicia con una declaración de constante que va a ser usada cómo función flecha.
+El código inicia con una declaración de constante que va a ser usada cómo función flecha que va a recibir cómo parametro un array.
 
 
 <p align="center">
@@ -68,14 +68,26 @@ La siguiente línea de código válida que el dato ingresado a la función sea u
 Y finalmente la función flecha finaliza retornando el índice 0 (el primer elemento) de dicho array.
 
 
-<p align="center">
-    <img width="300" src="/analisis_de_codigos/code-images/analisis-1/return.svg">
-</p>
-
-
 -------------
 -------------
 
 
-*** ANÁLISIS DE CÓDIGO FUENTE #2 ***
+<h2 align="center">ANÁLISIS DE CÓDIGO FUENTE #2</h1>
 
+<p align="center"><img src="/analisis_de_codigos/code-images/analisis-2/codigo_fuente.svg"></p>
+
+------------
+
+El codigo empieza declarando una función con la palabra reservada <strong>Function</strong> que recibe cómo parametro un array.
+
+Dentro de la función, se empieza verificando que el array contenga al menos un elemento, esto lo hace hace verificando la longitud del array con ***array.length*** y si la longitud es exactamente igual a 0 entonces se retornará un string.
+
+Luego se procede a verificar que el dato ingresado a la función sea un array.
+Esto se hace haciendo uso de un condicional if con negación (!), quedando la expresión completa así ***if (!Array.isArray(array))*** lo que se traduce cómo "Si el dato ingresado no es de tipo array" entonces se retornará un mensaje por consola.
+
+Si las validaciones pasadas se pasan correctamente, la función terminará retornando el último elemento de dicho array haciendo uso del metodo ***at(-1)*** que permite obtener el elemento que se encuentra en el índice que se pasa cómo parametro dentro del método.
+
+---------
+---------
+
+<h2 align="center">ANÁLISIS DE CÓDIGO FUENTE #3</h2>
