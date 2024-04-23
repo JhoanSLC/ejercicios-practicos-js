@@ -51,9 +51,10 @@ Y finalmente la función flecha finaliza retornando el índice 0 (el primer elem
 <p align="center">
     <img src="/analisis_de_codigos/code-images/analisis-1/return.svg">
 </p>
+
 -------------
 -------------
--------------
+
 
 *** ANÁLISIS DE CÓDIGO FUENTE #2 ***
 
