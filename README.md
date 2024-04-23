@@ -1,4 +1,4 @@
-<h1 align="center" font-size="80">Ejercicios prácticos JavaScript</h1>
+<h1 align="center" width="80">Ejercicios prácticos JavaScript</h1>
 
   
   
