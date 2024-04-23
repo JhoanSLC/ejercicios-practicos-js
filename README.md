@@ -141,3 +141,17 @@ Luego va a retornar la longitud del array o un mensaje si el parámetro no es un
 Haciendo uso del operador ternario ***?*** para en caso de que el parámetro no sea un array pára retornar el mensaje
 
 Haciendo uso del operador ternario ***:*** para en caso de que el parámetro sí sea un array entonces retorna la longitud del array haciendo uso del método ***.lenght*** 
+
+<h3>ALGUNOS EJEMPLOS</h3>
+
+<h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+console.log(obtenerLargoDelArray([1,2,3,4,5,6,7,8,9,10])); // ***10***
+
+console.log(obtenerLargoDelArray([])); // ***0***
+
+console.log(obtenerLargoDelArray({})); // ***Mensaje***
+
+console.log(obtenerLargoDelArray(1)); // ***Mensaje***
+
+console.log(obtenerLargoDelArray("Hola")); // ***Mensaje***
