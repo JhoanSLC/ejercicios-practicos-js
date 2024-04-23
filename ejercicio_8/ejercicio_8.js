@@ -30,4 +30,6 @@ const numeroDeAes = (string) => {
 
 }
 
-console.log(numeroDeAes(''))
+console.log(numeroDeAes("abracadabra")) // 5
+console.log(numeroDeAes("etinol")) // 0
+console.log(numeroDeAes("")) // 0

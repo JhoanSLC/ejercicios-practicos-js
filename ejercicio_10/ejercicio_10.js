@@ -25,4 +25,6 @@ const sumarArreglo = (array) => {
     return resultadoFinal;
 }
 
+console.log(sumarArreglo([4, 1, 2, 3]))
+console.log(sumarArreglo([1, 2, 3, 4, 5, 6, 7, 8]))
 console.log(sumarArreglo([]))

@@ -32,4 +32,6 @@ const numeroDeCaracteres = (string, char) => {
     return charCounter;
 }
 
-console.log(numeroDeCaracteres('eeeeE', 'e'))
+console.log(numeroDeCaracteres("Hola Mundo", "o")) // 2
+console.log(numeroDeCaracteres("MMMMM", "m")) // 0
+console.log(numeroDeCaracteres("eeee", 'e')) // 4
