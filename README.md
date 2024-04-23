@@ -72,10 +72,15 @@ Y finalmente la función flecha finaliza retornando el índice 0 (el primer elem
 <h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
 
 console.log(devolverPrimerElemento([1,2,3,4,5])); // ***1*** 
+
 console.log(devolverPrimerElemento([1])); // ***1*** 
+
 console.log(devolverPrimerElemento([])); // ***El arreglo no puede estar vacío***
+
 console.log(devolverPrimerElemento("Hola mundo")); // ***El parámetro debe ser un arreglo***
+
 console.log(devolverPrimerElemento(5)); // ***El parámetro debe ser un arreglo***
+
 console.log(devolverPrimerElemento({})); // ***El parámetro debe ser un arreglo***
 
 
@@ -103,11 +108,17 @@ Si las validaciones pasadas se pasan correctamente, la función terminará retor
 <h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
 
 console.log(devolverUltimoElemento([1,2,3,4,5])); // ***5*** 
+
 console.log(devolverUltimoElemento(["Hola", "mundo"])); // ***mundo*** 
+
 console.log(devolverUltimoElemento([1])); // ***1*** 
+
 console.log(devolverUltimoElemento([])); // ***No hay elementos en el array*** 
+
 console.log(devolverUltimoElemento("Hola mundo")); // ***Hola mundo***
+
 console.log(devolverUltimoElemento(5)); // ***El parámetro no es un array***
+
 console.log(devolverUltimoElemento({})); // ***El parámetro no es un array***
 
 ---------
