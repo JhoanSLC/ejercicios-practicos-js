@@ -23,7 +23,7 @@ Análisis de Código Fuente : Explique con su palabras que realiza el siguiente 
 El siguiente código se encarga de tomar un array y devolver el primer elemento de este array. A continuación se explicará el código línea por línea
 
 <p align="center">
-    <img width="200" src="/analisis_de_codigos/code-images/analisis-1/codigo_fuente.svg">
+    <img width="450" src="/analisis_de_codigos/code-images/analisis-1/codigo_fuente.svg">
 </p>
 
   
