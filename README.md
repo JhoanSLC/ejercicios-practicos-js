@@ -16,7 +16,7 @@ Estos ejercicios se realizan a forma de tarea práctica para CampusLands.
 
   
 
-***ANÁLISIS DE CÓDIGO FUENTE***
+<h2 align="center">ANÁLISIS DE CÓDIGO FUENTE #1</h1>
 
 Análisis de Código Fuente : Explique con su palabras que realiza el siguiente código fuente.
 
