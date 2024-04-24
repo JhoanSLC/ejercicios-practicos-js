@@ -197,3 +197,37 @@ console.log(arrayContiene(["Pedro", "Juan", "Maria"], "Juan")); // ***true***
 -------------------------
 
 <h2 align="center">ANÁLISIS DE CÓDIGO FUENTE #5</h2>
+
+<p align="center"><img src="/analisis_de_codigos/code-images/analisis-5/codigo_fuente_5.svg" width="600"/></p>
+
+--------------------------
+<strong>Este código se encarga de recibir un array de números y retornar la suma de todos los números que contiene. Esto lo hace de la siguiente manera:</strong>
+
+Empieza declarando una función que toma cómo parámetro un array de números.
+
+Con la siguiente línea se verifica que el parámetro ingresado a la función sea un array y en caso de no serlo devuelve un mensaje de error.
+
+La siguiente verificación es que el array sea solo de números. Para verificar esto se usa el metodo ***some()*** donde dice que si alguno de los items del array es diferente de ***tipo number*** entonces devuelve un mensaje de error.
+
+Si el array pasa las verificaciones anteriores, se usa el metodo ***reduce()*** para sumar todos los elementos del array. Este método toma una función de retorno de llamada que recibe dos argumentos: 'acc' y 'curr'. Esta función suma el valor actual al acumulador y devuelve el resultado y además se establece el valor inicial del acumulador que es ***0***.
+
+------------------------
+
+<h3> ALGUNOS EJEMPLOS </h3>
+
+<h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+console.log(numeroMasGrande([1,2,3,4,5])); // ***15***
+
+console.log(numeroMasGrande([])); // ***0***
+
+console.log(numeroMasGrande([1,2,3,4,"5"])) // ***mensaje de error***
+
+console.log(numeroMasGrande(6)) // ***mensaje de error***
+
+console.log(numeroMasGrande({})) // ***mensaje de error***
+
+console.log(numeroMasGrande(false)) // ***mensaje de error***
+
+--------------------------
+----------------------------
