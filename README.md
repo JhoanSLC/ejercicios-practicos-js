@@ -231,3 +231,40 @@ console.log(numeroMasGrande(false)) // ***mensaje de error***
 
 --------------------------
 ----------------------------
+
+<h1 align="center">ANÁLISIS DE CÓDIGO FUENTE #6</h1>
+
+<p align="center"><img src="/analisis_de_codigos/code-images/analisis-6/codigo_fuente_6.svg" width="600"/></p>
+
+-------------------
+
+Se inicia declarando una función llamada ***"empiezaConNueve"*** que toma cómo parámetro un número.
+
+La primera línea dentro de la función es una validación que se encarga de verificar que el número ingresado sea un número y no otro tipo de dato comparando el tipo del dato ingresado con ***typeof*** y ***"number"*** siendo el tipo de dato que se desea.
+
+A continuación se crean 2 constantes. La primera llamada ***"numeroAString"*** que pasa el número ingresado a un string y la segunda constante llamada ***"primerDigito"*** que guarda el primer digito del string guardado en la primera constante pero pasandolo otra vez a tipo de dato ***"number"***.
+
+La función finaliza retornando una comparación (Es decir que va a retornar verdadero o falso) ***"primerDigito === 9"*** en caso de que el primer digito del número sea 9, la función va a retornar verdadero y en caso contrario retornará falso.
+
+------------------------------
+
+<h3>ALGUNOS EJEMPLOS</h3>
+
+<h4>Los "//" representa el resultado que se va a mostrar en la consola</h4>
+
+console.log(empiezaConNueve(965)) // ***true***
+
+console.log(empiezaConNueve(65)) // ***false***
+
+console.log(empiezaConNueve(999)) // ***true***
+
+console.log(empiezaConNueve(0)) // ***false***
+
+console.log(empiezaConNueve(9)) // ***true***
+
+console.log(empiezaConNueve(true)) // ***mensaje de error***
+
+-------------------------------------------------
+---------------------------------------------
+
+
